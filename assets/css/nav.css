@@ -58,3 +58,9 @@
 #sidebar .list-sidebar-item .list-sidebar-title {
     color: white;
 }
+
+#sidebar .list-sidebar-item.item-active {
+    border-radius: 0px 40px 40px 0px;
+    background:  #6E56E0;
+    color: white
+}
