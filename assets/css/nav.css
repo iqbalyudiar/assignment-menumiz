@@ -65,3 +65,35 @@
     background:  #6E56E0;
     color: white
 }
+
+#notificationBar {
+    padding: 24px;
+    display: none;
+    background: #000;
+    border: 1px solid #272727;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 100px;
+    height: 100vh;
+    width: 20vw;
+}
+
+#notificationBar.show {
+    display: block;
+}
+
+#notificationBar .notification-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#notificationBar .notification-bar-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #1E1E1E;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}

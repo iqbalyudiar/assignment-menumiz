@@ -88,3 +88,17 @@ sidebarItems.forEach((item) => {
 
   sidebar.appendChild(itemLink);
 });
+
+const notification = document.getElementById('notification')
+const notificationBar = document.getElementById('notificationBar')
+let isNotificationOpen = false
+
+
+function handleClickNotification () {
+  isNotificationOpen = !isNotificationOpen
+  notification.src = `./assets/img/Notifications-${isNotificationOpen ? 'open' : 'close'}.svg`
+  notificationBar.classList.toggle('show')
+  
+}
+
+notification.addEventListener('click', handleClickNotification)

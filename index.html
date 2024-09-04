@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="./assets/css/tabs.css">
-    <link rel="stylesheet" href="./assets/css/diagram.css">nk
+    <link rel="stylesheet" href="./assets/css/diagram.css">
 </head>
 <body>
     <header>
@@ -25,13 +25,57 @@
                         <input type="text" name="searchBar" id="searchBar" placeholder="Enter any keyword..." />
                     </div>
                     <img src="./assets/img/Filter.svg" alt="filter" class="mr-16">
-                    <img src="./assets/img/Notifications-close.svg" alt="notification" class="mr-16">
+                    <img src="./assets/img/Notifications-close.svg" alt="notification" id="notification" class="mr-16">
                     <img src="./assets/img/Avatar.svg" alt="avatar" class="mr-16">
                 </div>
             </div>
         </nav>
     </header>
     <section id="sidebar"></section>
+    <section id="notificationBar" class="show">
+        <div class="notification-bar-header">
+            <h1>Notifications</h1>
+            <div class="text-gray-main">Mark all as read</div>
+        </div>
+        <div class="notification-bar-content">
+            <div class="notification-bar-item">
+                <div>
+                    <img src="./assets/img/Avatar.svg" alt="profile" class="mr-16">
+                </div>
+                <div>
+                    <div class="text-white mb-16">Mark Jacobs has applied for leave and is currently awaiting approval.</div>
+                    <div class="text-gray-main">Today at 09:42 AM</div>
+                </div>
+            </div>
+            <div class="notification-bar-item">
+                <div>
+                    <img src="./assets/img/Avatar.svg" alt="profile" class="mr-16">
+                </div>
+                <div>
+                    <div class="text-white mb-16">Mark Jacobs has applied for leave and is currently awaiting approval.</div>
+                    <div class="text-gray-main">Today at 09:42 AM</div>
+                </div>
+            </div>
+            <div class="notification-bar-item">
+                <div>
+                    <img src="./assets/img/Avatar.svg" alt="profile" class="mr-16">
+                </div>
+                <div>
+                    <div class="text-white mb-16">Mark Jacobs has applied for leave and is currently awaiting approval.</div>
+                    <div class="text-gray-main">Today at 09:42 AM</div>
+                </div>
+            </div>
+            <div class="notification-bar-item">
+                <div>
+                    <img src="./assets/img/Avatar.svg" alt="profile" class="mr-16">
+                </div>
+                <div>
+                    <div class="text-white mb-16">Mark Jacobs has applied for leave and is currently awaiting approval.</div>
+                    <div class="text-gray-main">Today at 09:42 AM</div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="main-content">
         <div class="tabs">
             <button class="tab-button" data-tab="leave-management">Leave Management</button>
