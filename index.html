@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HR APP</title>
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/tabs.css">
 </head>
 <body>
     <header>
@@ -30,6 +31,138 @@
         </nav>
     </header>
     <section id="sidebar"></section>
+    <section class="main-content">
+        <div class="tabs">
+            <button class="tab-button" data-tab="leave-management">Leave Management</button>
+            <button class="tab-button" data-tab="leave-requests">Leave Requests</button>
+            <button class="tab-button" data-tab="leave-types">Leave Types</button>
+            <button class="tab-button" data-tab="leave-calendar">Leave Calendar</button>
+            <button class="tab-button" data-tab="leave-report">Leave Report</button>
+            <button class="tab-button" data-tab="leave-approver">Leave Approver</button>
+        </div>
+    
+        <div id="leave-management" class="tab-content">
+            <h1>Dashboard</h1>
+            <div class="flex justify-content-space-between">
+                <div class="card w-50-p mr-16">
+                    <div class="card-header">
+                        <div class="card-header-left">Heatmap</div>
+                        <div class="card-header-right text-gray-main">
+                            <div class="mr-16 flex align-items-center">
+                                <span class="mr-16">Sickday</span>
+                                <img src="./assets/img/arrow-down.svg" alt="arrow-down" />
+                            </div>
+                            <div class="mr-16 flex align-items-center">
+                                <span class="mr-16">MARCH 2023</span>
+                                <img src="./assets/img/arrow-down.svg" alt="arrow-down" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-tab-days">
+                            <div class="pr-10">Mon</div>
+                            <div class="pr-10">Tue</div>
+                            <div class="pr-10">Wed</div>
+                            <div class="pr-10">Thu</div>
+                            <div class="pr-10 active">Fri</div>
+                            <div class="pr-10">Sat</div>
+                            <div>Sun</div>
+                        </div>
+                        <div class="flex justify-content-space-between mt-10">
+                            <div>
+                                Sick Leave
+                                <div>circle</div>
+                            </div>
+                            <div>
+                                Annual Leave
+                                <div>circle</div>
+                            </div>
+                            <div>
+                                Emergency Leave
+                                <div>circle</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div>Most popular day: Friday
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card w-50-p">
+                    <div class="card-header">
+                        <div>Most Days Aways</div>
+                        <div class="mr-16 flex align-items-center">
+                            <span class="mr-16">MARCH 2023</span>
+                            <img src="./assets/img/arrow-down.svg" alt="arrow-down" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="flex justify-content-space-between mb-16">
+                            <div class="flex align-items-center">
+                                <img src="./assets/img/Avatar.svg" alt="profile" class="mr-16" />
+                                <span class="text-gray-main">Mark Jacobs</span>
+                            </div>
+                            <div class="flex align-items-center text-white">
+                                5.0 days(s)
+                            </div>
+                        </div>
+                        <div class="flex justify-content-space-between mb-16">
+                            <div class="flex align-items-center">
+                                <img src="./assets/img/Avatar.svg" alt="profile" class="mr-16" />
+                                <span class="text-gray-main">Charlie Kristen</span>
+                            </div>
+                            <div class="flex align-items-center text-white">
+                                3.5 days(s)
+                            </div>
+                        </div>
+                        <div class="flex justify-content-space-between mb-16">
+                            <div class="flex align-items-center">
+                                <img src="./assets/img/Avatar.svg" alt="profile" class="mr-16" />
+                                <span class="text-gray-main">Nur Fariha binti Maslan</span>
+                            </div>
+                            <div class="flex align-items-center text-white">
+                                1.0 days(s)
+                            </div>
+                        </div>
+                        <div class="flex justify-content-space-between mb-16">
+                            <div class="flex align-items-center">
+                                <img src="./assets/img/Avatar.svg" alt="profile" class="mr-16" />
+                                <span class="text-gray-main">Nishant Talwar</span>
+                            </div>
+                            <div class="flex align-items-center text-white">
+                                1.0 days(s)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        TOTAL: 9.5 day(s)
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="leave-requests" class="tab-content">
+            <h1>Leave Requests</h1>
+        </div>
+    
+        <div id="leave-types" class="tab-content">
+            <h1>Leave Types</h1>
+        </div>
+    
+        <div id="leave-calendar" class="tab-content">
+            <h1>Leave Calendar</h1>
+        </div>
+
+        <div id="leave-report" class="tab-content">
+            <h1>Leave Report</h1>
+        </div>
+
+        <div id="leave-approver" class="tab-content">
+            <h1>Leave Approver</h1>
+        </div>
+    </section>
     <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/tabs.js"></script>
 </body>
 </html>

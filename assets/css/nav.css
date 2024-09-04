@@ -46,6 +46,7 @@
     height: 100vh;
     width: 20vh;
     border-right: 1px solid #898989;
+    position: fixed;
 }
 
 #sidebar .list-sidebar-item {

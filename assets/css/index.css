@@ -1,3 +1,107 @@
 .mr-16 {
     margin-right: 16px;
 }
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.main-content {
+    background: #000;
+    padding-left: 265px;
+    padding-top: 16px;
+    height: 100vh;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray-main {
+    color: #898989;
+}
+
+.w-50-p {
+    width: 50%;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px #272727;
+    background: #1E1E1E;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px 10px 16px;
+    border-bottom: 1px solid #272727;
+}
+
+.card-header .card-header-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body {
+    border-bottom: 1px solid #272727;
+    padding: 10px 24px;
+}
+
+.card-tab-days {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 1px solid #272727;
+}
+
+.card-tab-days div {
+    border-right: 1px solid #272727 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.card-tab-days div:last-child {
+    border-right: none;
+}
+
+.card-tab-days .active {
+    background-color: #C33535;
+}
+
+.card-footer {
+    padding: 16px 24px 10px 24px;
+    color: #898989;
+}
